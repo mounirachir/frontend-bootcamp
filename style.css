@@ -9,3 +9,8 @@ body::before {
     width: 50%;
   }
 }
+@media (max-width: 500px) {
+  iframe {
+    display: none;
+  }
+}
